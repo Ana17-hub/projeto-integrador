@@ -1,0 +1,108 @@
+{
+  "fornecedores": [
+    {
+      "id": "dc16d8ed-c48d-4854-b728-7a37b446b270",
+      "nomeEmpresa": "Jose da SIlva v",
+      "cnpj": "01.500.101/5156-56",
+      "endereco": "sjaoisoiajs ojsoapik ops",
+      "telefone": "(61) 9898-8989",
+      "email": "a@a.com",
+      "contatoPrincipal": "aaaa bbb cc"
+    },
+    {
+      "id": "ed1b7a0a-1ff4-4213-a8e4-d61ad9504392",
+      "nomeEmpresa": "Mickey",
+      "cnpj": "11.352.101/5065-00",
+      "endereco": "asda da dada d",
+      "telefone": "(61) 9999-9999",
+      "email": "a@a.com",
+      "contatoPrincipal": "5555555555555"
+    },
+    {
+      "id": "9c4cf226-e8e6-4998-a6c5-31eeb4ab83c7",
+      "nomeEmpresa": "Tiririca",
+      "cnpj": "15.151.601/6151-06",
+      "endereco": "aasas 1",
+      "telefone": "(15) 1851-2515",
+      "email": "a@a.com",
+      "contatoPrincipal": "161616601"
+    },
+    {
+      "id": "547c93b7-5cf1-4bb6-bfb4-af40d24370dd",
+      "nomeEmpresa": "Salvatore Pátria",
+      "cnpj": "02.545.415/4160-00",
+      "endereco": "qusnfo  v dgdg",
+      "telefone": "(12) 6509-6789",
+      "email": "sslaf@gmaill.com",
+      "contatoPrincipal": "Salvatore"
+    }
+  ],
+  "produtos": [
+    {
+      "id": "af6d5390-fe01-4007-82cf-fd55e54f37dd",
+      "nomeProduto": "Teclado Mecânico",
+      "codigoBarras": "1234567890123",
+      "descricao": "Teclado mecânico RGB",
+      "quantidadeEstoque": 10,
+      "categoria": "Eletrônicos",
+      "dataValidade": null
+    },
+    {
+      "id": "585fe598-3431-4f33-8d5b-51522d70673b",
+      "nomeProduto": "Mouse",
+      "codigoBarras": "1234567890123",
+      "descricao": "Teclado mecânico RGB",
+      "quantidadeEstoque": 10,
+      "categoria": "Eletrônicos",
+      "dataValidade": null
+    },
+    {
+      "id": "d609af54-9916-4bde-95cf-91582e710f89",
+      "nomeProduto": "HD",
+      "codigoBarras": "121213212311",
+      "descricao": "adadadadad",
+      "quantidadeEstoque": 1234,
+      "categoria": "Eletrônicos",
+      "dataValidade": "2025-04-23"
+    },
+    {
+      "id": "f4dba109-2846-4c8a-832f-43f26bd22515",
+      "nomeProduto": "produto 01",
+      "codigoBarras": "12313",
+      "descricao": "aaaaaaa",
+      "quantidadeEstoque": 1,
+      "categoria": "Eletrônicos",
+      "dataValidade": "2222-02-12"
+    }
+  ],
+  "associacoes": [
+    {
+      "produtoId": "d609af54-9916-4bde-95cf-91582e710f89",
+      "fornecedorId": "dc16d8ed-c48d-4854-b728-7a37b446b270"
+    },
+    {
+      "produtoId": "d609af54-9916-4bde-95cf-91582e710f89",
+      "fornecedorId": "9c4cf226-e8e6-4998-a6c5-31eeb4ab83c7"
+    },
+    {
+      "produtoId": "585fe598-3431-4f33-8d5b-51522d70673b",
+      "fornecedorId": "dc16d8ed-c48d-4854-b728-7a37b446b270"
+    },
+    {
+      "produtoId": "b7e15975-b2e4-4171-aea6-e8ae68335f93",
+      "fornecedorId": "547c93b7-5cf1-4bb6-bfb4-af40d24370dd"
+    },
+    {
+      "produtoId": "4533b881-8bb3-4735-bdfa-825b29104d50",
+      "fornecedorId": "547c93b7-5cf1-4bb6-bfb4-af40d24370dd"
+    },
+    {
+      "produtoId": "af6d5390-fe01-4007-82cf-fd55e54f37dd",
+      "fornecedorId": "9c4cf226-e8e6-4998-a6c5-31eeb4ab83c7"
+    },
+    {
+      "produtoId": "f4dba109-2846-4c8a-832f-43f26bd22515",
+      "fornecedorId": "ed1b7a0a-1ff4-4213-a8e4-d61ad9504392"
+    }
+  ]
+}

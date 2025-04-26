@@ -1,0 +1,34 @@
+### Inserir um produto
+POST http://localhost:3000/produtos
+Content-Type: application/json
+
+{
+  "nomeProduto": "Mouse",
+  "codigoBarras": "1234567890123",
+  "descricao": "Teclado mecânico RGB",
+  "quantidadeEstoque": 10,
+  "categoria": "Eletrônicos",
+  "dataValidade": null
+}
+
+### Criar produto com imagem
+POST http://localhost:3000/produtos
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary
+
+------WebKitFormBoundary
+Content-Disposition: form-data; name="nomeProduto"
+
+Mouse Sem Fio
+------WebKitFormBoundary
+Content-Disposition: form-data; name="quantidadeEstoque"
+
+5
+------WebKitFormBoundary
+Content-Disposition: form-data; name="imagem"; filename="mouse.jpg"
+Content-Type: image/jpeg
+
+< ./tests/fixtures/mouse.jpg
+------WebKitFormBoundary--
+###
+### Listar todos os produtos
+GET http://localhost:3000/produtos
