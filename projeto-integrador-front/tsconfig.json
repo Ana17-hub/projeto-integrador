@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "strict": false,
+    "esModuleInterop": true
+  },
+  "include": ["src"]
+}

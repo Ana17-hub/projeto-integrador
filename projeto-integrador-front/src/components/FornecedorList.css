@@ -1,0 +1,16 @@
+.list-container {
+    margin-top: 1rem;
+}
+.list-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.list-container th, .list-container td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+.list-container button {
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+}

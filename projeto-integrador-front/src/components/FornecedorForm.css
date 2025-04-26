@@ -1,0 +1,36 @@
+.form-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.form-container h1 {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-group label {
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+}
+.form-group input,
+.form-group textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.error {
+    color: #c8102e;
+    font-size: 0.85rem;
+    margin-top: 0.25rem;
+}
+.message {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: 600;
+}
